@@ -1,0 +1,27 @@
+# Move to the home directory 
+cd
+pwd
+
+# Create a directory for this project
+mkdir GENESIS_Tutorials-2022
+cd GENESIS_Tutorials-2022
+
+# Create main directories
+mkdir Programs Data Works
+ls
+
+# Create sub-directories
+mkdir Data/PDB
+mkdir Data/Parameters
+mkdir Works/TRASH
+
+# Put the source code of GENESIS in the "Programs" directory 
+cd Programs
+bzip2 -d genesis-2.1.0.tar.bz2 
+tar -xvf genesis-2.1.0.tar 
+cd genesis-2.1.0
+ls
+
+# Find unnecessary files
+cd ../
+ls
